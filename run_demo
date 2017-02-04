@@ -1,2 +1,0 @@
-#! /bin/bash
-./project_soft test_image1.png outText.txt
