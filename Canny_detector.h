@@ -10,7 +10,9 @@
 
 class Canny_detector
 {
+
 public:
+
 	void  hys_threshold(float upperDir, float lowerDir, cv::Mat mat1, cv::Mat mat2, cv::Mat mat3, int lowT, float p1,
 		float p2, float p3, float p4, float p5, float p6, float p7, float p8, bool is_chg);
 	
@@ -28,4 +30,5 @@ public:
 	}
 
 	void CannyThreshold(int, void*);
+	
 };

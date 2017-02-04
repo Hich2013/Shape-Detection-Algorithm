@@ -1,5 +1,18 @@
 #include "project_soft.h"
 
+/// Global variables
+cv::Mat sourceImg;
+cv::Mat src_gray;
+cv::Mat outImg;
+cv::Mat detected_edges;
+
+const int edgeThresh = 1;
+const char* window_name = "Threshold Slider";
+const int max_lowThreshold = 100;
+const int ratio = 3;
+
+int lowThreshold;
+int kernel_size = 3;
 
 // This function performs the last step of edge detection , the Hysteresis thresholding 
 // (A description is provided before its implementation in the Canny detection function)
@@ -411,16 +424,3 @@ void Canny_detector::CannyThreshold(int, void *)
 	imshow(window_name, outImg);
 }
 
-/// Global variables
-cv::Mat sourceImg;
-cv::Mat src_gray;
-cv::Mat outImg;
-cv::Mat detected_edges;
-
-const int edgeThresh = 1;
-const char* window_name = "Threshold Slider";
-const int max_lowThreshold = 100;
-const int ratio = 3;
-
-int lowThreshold;
-int kernel_size = 3;
