@@ -41,20 +41,20 @@
 
 ## Installing 
 
-    In order to use the program, the user will have to input the following input arguments:
-		- The name of the input image file to be processed. The program will carry out all the processing on this
-		image.
-		- The name of the output image file. After processing the input image, the algorithm will store the output
-		image in another image file.
-		- The name of a new text file to output measurement information to. The program will store the
-		measurements done on the input image file and store them in this text file. The file will be organized
-		following a certain order and will contain the areas and circumferences of the detected shapes.
-		 The user will be able to visualize the functionalities of the program in the output image
-		and text file. 
+In order to use the program, the user will have to input the following input arguments:
+- The name of the input image file to be processed. The program will carry out all the processing on this
+image.
+- The name of the output image file. After processing the input image, the algorithm will store the output
+image in another image file.
+- The name of a new text file to output measurement information to. The program will store the
+measurements done on the input image file and store them in this text file. The file will be organized
+following a certain order and will contain the areas and circumferences of the detected shapes.
+ The user will be able to visualize the functionalities of the program in the output image
+and text file. 
 
-		 For testing purposes, the user can run the program with different input image files. One advantage of
-		the program is that the shapes that are present in the input image do not have to be perfectly drawn; in other
-		words, the program is still be able to process shapes to a certain extent of distortion.
+For testing purposes, the user can run the program with different input image files. One advantage of
+the program is that the shapes that are present in the input image do not have to be perfectly drawn; in other
+words, the program is still be able to process shapes to a certain extent of distortion.
     
 ## Authors
 
